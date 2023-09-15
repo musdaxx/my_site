@@ -100,3 +100,30 @@ img {
   width: 9%;
   position: relative; /* Set the position property to enable top */
 }
+#p1 {
+  /* ... */
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+}
+
+#linux.ex {
+  /* ... */
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+#html.ex {
+  /* ... */
+  left: 50%;
+  top: 68%;
+  transform: translate(-50%, -50%);
+}
+
+#python.ex {
+  /* ... */
+  left: 50%;
+  top: 81%;
+  transform: translate(-50%, -50%);
+}
