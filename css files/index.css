@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@900&display=swap");
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  color: rgb(64, 224, 208);
+  font-weight: bolder;
+  background-color: black;
+  border-radius: 52px;
+  width: 15%;
+  margin: 0 auto;
+  position: fixed;
+  left: 987px;
+}
+#p1 {
+  text-align: center;
+  font-size: large;
+  color: rgb(64, 224, 208);
+  font-weight: bold;
+}
+html {
+  --s: 120px; /* control the size */
+
+  --_c: #1f8de2 /* color 1 */ 25%, #0000 0;
+  --_g1: conic-gradient(at 62.5% 12.5%, var(--_c));
+  --_g2: conic-gradient(at 87.5% 62.5%, var(--_c));
+  --_g3: conic-gradient(at 25% 12.5%, var(--_c));
+  background: var(--_g1) calc(var(--s) / -8) calc(var(--s) / 2),
+    var(--_g1) calc(-3 * var(--s) / 8) calc(var(--s) / 4),
+    var(--_g2) calc(3 * var(--s) / 8) calc(var(--s) / 4),
+    var(--_g2) calc(var(--s) / -8) 0, var(--_g3) 0 calc(var(--s) / -4),
+    var(--_g3) calc(var(--s) / -4) 0,
+    conic-gradient(at 87.5% 87.5%, var(--_c)) calc(var(--s) / 8) 0 #041840; /* color 2 */
+  background-size: var(--s) var(--s);
+}
+
+.center-box {
+  width: 300px;
+  border: 17px solid rgb(0, 229, 255);
+  padding: 0px;
+  margin: 0px auto;
+  background-color: black;
+  border-radius: 63px;
+  position: fixed;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 165px;
+  position: fixed;
+  top: 128px;
+  left: 1025px;
+}
+
+#buttons {
+  text-align: center;
+  position: fixed;
+}
+
+#b21 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: xx-large;
+  position: fixed;
+  top: 440px;
+  left: 1110px;
+  margin: 0;
+  padding: 0;
+}
+#b21:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b12 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: large;
+  position: relative;
+  top: 84px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#b12:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b13:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#buttons2 {
+  text-align: center;
+  position: fixed;
+  top: -1px;
+  left: 906px;
+}
+#b13 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: large;
+  position: relative;
+  top: 84px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#b13:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b14 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: large;
+  position: relative;
+  top: 84px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#b14:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b15 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: large;
+  position: relative;
+  top: 84px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#b15:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b16 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: large;
+  position: relative;
+  top: 84px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#b16:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}
+#b22 {
+  background-color: rgb(0, 0, 0);
+  color: #00ffff;
+  border: #00ffff;
+  border-radius: 15px;
+  font-size: xx-large;
+  position: fixed;
+  top: 546px;
+  left: 1106px;
+  margin: auto;
+  padding: 0;
+  height: 9%;
+  left: 43%;
+}
+#b22:hover {
+  background-color: #00ffff;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+}

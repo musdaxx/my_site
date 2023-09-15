@@ -1,0 +1,59 @@
+html {
+  --s: 100px; /* control the size */
+  --c: #1f8de2; /* first color */
+
+  --_g1: var(--c) calc(25% / 3), #0000 0 calc(50% / 3), var(--c) 0 25%,
+    #0000 0 75%, var(--c) 0 calc(250% / 3), #0000 0 calc(275% / 3), var(--c) 0;
+  --_g2: #0000 calc(25% / 3), var(--c) 0 calc(50% / 3), #0000 0 calc(250% / 3),
+    var(--c) 0 calc(275% / 3), #0000 0;
+  background: linear-gradient(45deg, var(--_g2)),
+    linear-gradient(45deg, var(--_g1)), linear-gradient(-45deg, var(--_g2)),
+    linear-gradient(-45deg, var(--_g1)) #000000; /* second color */
+  background-position: 0 0, var(--s) var(--s);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #00ffff;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  top: 50px; /* You can adjust this value as needed */
+  background-color: black;
+  border-radius: 15px;
+  width: 354px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img1 {
+  border-radius: 15px;
+  width: 550px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 50px; /* You can adjust this value as needed */
+}
+.center-box {
+  width: 461px;
+  border: 17px solid rgb(0, 229, 255);
+  padding: 0px;
+  margin: 0px auto;
+  background-color: black;
+  border-radius: 63px;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+#p1 {
+  text-align: center;
+  font-size: large;
+  color: rgb(64, 224, 208);
+  font-weight: bold;
+}
+#p1 {
+  text-align: center;
+  font-size: large;
+  color: rgb(64, 224, 208);
+  font-weight: bold;
+}
