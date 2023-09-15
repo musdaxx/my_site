@@ -30,9 +30,9 @@ img {
   width: 434px;
   height: auto; /* Allow the height to adjust to content */
   top: 44%; /* Move the element down by 50% of the viewport height */
-  left: 50%; /* Move the element right by 50% of the viewport width */
-  transform: translate(-50%, -50%); /* Center the element precisely */
-  position: fixed;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #linux.ex {
@@ -48,9 +48,9 @@ img {
   width: 256px;
   height: auto;
   top: 55%;
+  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
+  transform: translateX(-50%);
 }
 #html.ex {
   color: #008080;
@@ -65,9 +65,9 @@ img {
   width: 256px;
   height: auto;
   top: 68%;
+  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
+  transform: translateX(-50%);
 }
 .uper {
   font-size: x-large;
@@ -85,9 +85,9 @@ img {
   width: 256px;
   height: auto;
   top: 81%;
+  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
+  transform: translateX(-50%);
 }
 #upd {
   color: #008080;
@@ -99,4 +99,31 @@ img {
   top: 727px; /* Adjust the percentage to move it down further */
   width: 9%;
   position: relative; /* Set the position property to enable top */
+}
+#p1 {
+  /* ... */
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+}
+
+#linux.ex {
+  /* ... */
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+#html.ex {
+  /* ... */
+  left: 50%;
+  top: 68%;
+  transform: translate(-50%, -50%);
+}
+
+#python.ex {
+  /* ... */
+  left: 50%;
+  top: 81%;
+  transform: translate(-50%, -50%);
 }
